@@ -1,0 +1,37 @@
+{
+  "name": "indian-pincode-database",
+  "version": "1.0.0",
+  "description": "Database of Indian pin (postal) codes for node applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js --timeout 3600000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thatisuday/indian-pincode-database.git"
+  },
+  "keywords": [
+    "database",
+    "cities",
+    "states",
+    "india"
+  ],
+  "author": "Uday Hiwarale <uhiwarale@gmail.com> (https://github.com/thatisuday)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thatisuday/indian-pincode-database/issues"
+  },
+  "homepage": "https://github.com/thatisuday/indian-pincode-database#readme",
+  "dependencies": {
+    "async": "^2.0.1",
+    "lodash": "^4.15.0",
+    "mongoose": "^4.6.0",
+    "progress": "^1.1.8"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "csvtojson": "^1.0.0",
+    "excel-to-json": "^1.0.0",
+    "mocha": "^3.0.2"
+  }
+}
