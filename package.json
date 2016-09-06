@@ -1,6 +1,5 @@
 {
   "name": "indian-pincode-database",
-  "version": "1.0.0",
   "description": "Database of Indian pin (postal) codes for node applications",
   "main": "index.js",
   "scripts": {
@@ -26,12 +25,11 @@
     "async": "^2.0.1",
     "lodash": "^4.15.0",
     "mongoose": "^4.6.0",
-    "progress": "^1.1.8"
+    "progress": "^1.1.8",
+    "csvtojson": "^1.0.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "csvtojson": "^1.0.0",
-    "excel-to-json": "^1.0.0",
     "mocha": "^3.0.2"
   }
 }
