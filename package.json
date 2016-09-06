@@ -1,5 +1,6 @@
 {
   "name": "indian-pincode-database",
+  "version": "1.0.2",
   "description": "Database of Indian pin (postal) codes for node applications",
   "main": "index.js",
   "scripts": {
